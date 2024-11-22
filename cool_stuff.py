@@ -93,7 +93,7 @@ class cedars_sub_commands:
                 elif self.action ==  "help":
                     help_instance = Help(self.list_to_print, self.dict_of_commands)
                     help_instance.normal()  # Call normal method on the instance
-                elif self.action = "exit"
+                elif self.action == "exit"
                     break
 
                 else:
