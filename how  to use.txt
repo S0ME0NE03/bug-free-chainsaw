@@ -1,0 +1,17 @@
+here is a example of calling "letter eliminator'
+
+  # main.py
+from cool_stuff import CedarsSubCommands
+
+# Define the parameters for the command you want to run
+Command = "letter eliminator"  #can also be "dice roller"
+arg_1 = "jeff"  #this is the input word             for dice roller this would be the number of sides of the dice
+arg_2 = "f"  #this is the letters to eleminate      for dice roller this would be the number of dice to roll
+
+# Instantiate CedarsSubCommands with the command and arguments
+cedar = CedarsSubCommands(Command, arg_1, arg_2)
+
+# Call the method whithout ui 
+cedar.c_commands_headless(Command, arg_1, arg_2)
+# Call the method whith ui
+cedar.c_commands()
