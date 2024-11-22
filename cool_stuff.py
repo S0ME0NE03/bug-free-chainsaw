@@ -93,7 +93,7 @@ class cedars_sub_commands:
                 elif self.action ==  "help":
                     help_instance = Help(self.list_to_print, self.dict_of_commands)
                     help_instance.normal()  # Call normal method on the instance
-                elif self.action == "exit"
+                elif self.action == "exit":
                     break
 
                 else:
@@ -110,4 +110,4 @@ class cedars_sub_commands:
                 self.roller.roll()
             elif Command ==  "help":
                 pass
-            print("Syntax error when calling c_commands_headles \n \nNo sutch command " + self.Command + " exists"
+            print("Syntax error when calling c_commands_headles \n \nNo sutch command " + self.Command + " exists")
