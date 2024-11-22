@@ -74,7 +74,7 @@ class cedars_sub_commands:
         self.arg_2 = arg_2
 
         def c_commands(self):
-            while 1
+            while 1:
                 print("")
                 leading_words = "Cedar's commands("
                 trailing_words = "):\n"
