@@ -92,3 +92,8 @@ class CedarsSubCommands:
             pass
         else:
             print(f"Syntax error when calling c_commands_headless. No such command '{self.Command}' exists")
+def main():
+    run = None,None,None
+    c_commands.run
+if __name__ == "__main__":
+    main()
